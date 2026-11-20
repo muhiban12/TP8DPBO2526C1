@@ -199,7 +199,7 @@ tp_mvc25/
 │       ├── edit.php                # Formulir ubah dosen
 │       └── index.php               # Tabel daftar dosen
 └── Dokumentasi/                    # Bukti pengujian & dokumentasi proyek
-    └── 2026-11-20 15-20-11.mkv     # Rekaman video demonstrasi fungsionalitas aplikasi
+    └── dokumentasi_TP8.mkv         # Rekaman video demonstrasi fungsionalitas aplikasi
 ```
 
 ---
