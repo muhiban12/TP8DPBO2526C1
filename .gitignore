@@ -1,0 +1,60 @@
+# ==============================================================================
+# .gitignore untuk Proyek PHP Native MVC (tp_mvc25)
+# ==============================================================================
+
+# 1. Environment & Konfigurasi Lokal
+.env
+.env.local
+.env.*.local
+*.local.php
+
+# 2. Editor & IDE (VS Code, PhpStorm, Sublime Text, dll.)
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*~
+*.sublime-project
+*.sublime-workspace
+
+# 3. File Sistem Operasi (Windows, macOS, Linux)
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# 4. Log & File Sementara (Temporary Files)
+*.log
+error_log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 5. Dependency & Package Manager (Composer / NPM)
+/vendor/
+composer.phar
+/node_modules/
+
+# 6. File Backup & Cache
+*.bak
+*.tmp
+*.temp
+*.swp
+*~
+
